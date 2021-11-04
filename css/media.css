@@ -1,0 +1,81 @@
+@media screen and (max-width: 1199px) {
+    .percent__deckr {
+        width: 55%;
+    }
+    .percent__num {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 997px) {
+     .bg-title {
+         font-size: 40px;
+     }
+    .row {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .percent__deckr {
+        width: 50%;
+        padding: 25px 20px;
+    }
+    .percent__num {
+        width: 50%;
+    }
+    .num__p {
+        font-size: 20px;
+    }
+    .p-ever {
+      font-size: 16px;
+    }
+    .cars__col {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .percent {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .percent__deckr {
+        width: 100%;
+    }
+    .percent__num {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+     .button {
+         font-size: 12px;
+         min-width: auto;
+         padding: 12px 17px;
+         margin: auto 0;
+     }
+    .bg-title {
+        font-size: 30px;
+    }
+    .row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .p {
+        display: none;
+    }
+    .logo {
+        height: 70px;
+    }
+    .everyone-h2 {
+        font-size: 24px;
+    }
+}
+
+
+
